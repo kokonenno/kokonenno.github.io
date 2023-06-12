@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "HOME"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Kokonenne"
 description              : "An amazing website."
 url                      : "https://kokonenno.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : " **Welcome** Blog"
+  location         : "live"
   email            :
   links:
     - label: "Email"
