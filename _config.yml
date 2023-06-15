@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "HOME"
-title_separator          : "-"
+title                    : "코코넨노"
+title_separator          : "One for step to Zero"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Kokonenne"
+name                     : "Kokonenno"
 description              : "An amazing website."
 url                      : "https://kokonenno.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/kokonenno.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default),  "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kokonenne"
+  name             : "Kokonenno"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : " **Welcome** Blog"
-  location         : "live"
+  bio              : "코코넨노 Blog"
+  location         :
   email            :
   links:
     - label: "Email"
@@ -290,3 +290,6 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
