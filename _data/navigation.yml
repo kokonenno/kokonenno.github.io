@@ -6,8 +6,8 @@ main:
     url: /year-archive-grid/
   - title: "Category"
     url: /categories/
-#  - title: "Tags"
-#    url: /tags/
+  - title: "Tags"
+    url: /tags/
 
 docs:
   - title: "대목차"
