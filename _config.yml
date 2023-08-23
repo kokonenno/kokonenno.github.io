@@ -16,18 +16,19 @@ minimal_mistakes_skin    : "plum" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko-KR" #"en-US", "ja_JP"
-title                    : "Blog"
-title_separator          : "One for step to Zero"
+title                    : "ペンミン Blog"
+title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "ペンミン"
-description              : "bored penguin."
+description              : "ペンミン Blog"
 url                      : "https://kokonenno.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/kokonenno.png"
+logo                     : # "/assets/images/kokonenno.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : false # true, false (default)
+
+# breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "utterances" # false (default),  "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom", "dispus"
@@ -40,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-dark"
+    issue_term           : "pathname"
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -98,35 +99,35 @@ analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "G-0DGFHFCDND"
-    anonymize_ip         : false # true, false (default)
+    anonymize_ip         :  # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Kokonenno"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "코코넨노 Blog"
-  location         :
-  email            :
+  name             : "ペンミン"
+  avatar           : "/assets/images/kokonenno.png"
+#  bio              : "ペンミン Blog"
+#  location         :
+#  email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      # url: "mailto:your.name@email.com"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      # url: "https://your-website.com"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      # url: "https://twitter.com/"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+#      # url: "https://facebook.com/"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      # url: "https://github.com/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
