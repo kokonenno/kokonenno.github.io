@@ -1,8 +1,8 @@
-## 🦥 `kokoPenmin `
+## 🦥 `Penmin`
 
-📎 **블로그 바로 가기**
+📎 **Go to Blog**
 
-[`https://kokoPen.github.io/`](https://kokoPen.github.io/)
+[`https://kokoPen.github.io/`](https://kokonenno.github.io/)
 
 
 
