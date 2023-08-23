@@ -106,9 +106,9 @@ analytics:
 author:
   name             : "ペンミン"
   avatar           : "/assets/images/kokonenno.png"
-#  bio              : "ペンミン Blog"
-#  location         :
-#  email            :
+  #  bio              : "ペンミン Blog"
+  #  location         :
+  #  email            :
   links:
 #    - label: "Email"
 #      icon: "fas fa-fw fa-envelope-square"

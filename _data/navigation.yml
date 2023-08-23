@@ -1,32 +1,34 @@
 # main links
 main:
-  - title: "Search"
-    url: /search/
-  - title: "Logs"
-    url: /year-archive-grid/
-  - title: "Category"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: https://choiiis.github.io/
 
-docs:
-  - title: "대목차"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: /about/
 
-counts:
-  - title: "카테고리"
-    use: true
-  - title: "태그"
-    use: true
+  - title: "GitHub"
+    url: https://github.com/choiiis
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "C/C++"
+    url: /categories/c-cpp/
+  - title: "Python"
+    url: /categories/python/
+  - title: "Algorithm"
+    url: /categories/algorithm/
+  - title: "Web"
+    url: /categories/web/
+  - title: "Git"
+    url: /categories/git/
+  - title: "GitHub Blog"
+    url: /categories/github-blog/
+  - title: "Machine Learning"
+    url: /categories/machine-learning/
